@@ -1,18 +1,31 @@
-
-#include <MyInclude.h>
-
-/*
-#include <stdio.h>
-#include <string>
-#include <cstring>
+/**  Bunch of libs we use frquently  **/
+#include <stdio.h>              /*  Usual suspects          */
 #include <iostream>
-#include <sstream>
 
-#include <chrono>
-#include <thread>
+#include <math.h>
+#include <time.h>               /*  Read clock              */
 
+#include <vector>
+#include <string>
+#include <cstring>              /*  Allow strcpy etc        */
+#include <sstream>              /*  Stream to string        */
+#include <fstream>              /*  File-handling           */
+
+#include <chrono>               /*  Sleep for <time>        */
+#include <thread>               /*  Multithread, sleep_for   */
+#include <typeinfo>             /*  Dubugging, typeid       */
+
+
+/**  Mostly we work here  **/
 using namespace std;
-*/
+
+
+/**  Shortcuts  **/
+#define ULL unsigned long long
+#define noop                                                        /*  No-op "function"                                    */
+#define NL "\n"                                                     /*  Stringify output                                    */
+const string    nl              = "\n";                             /*  Stringify output                                    */
+
 
 #define CLEAR "cls"
 
